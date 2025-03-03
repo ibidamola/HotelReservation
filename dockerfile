@@ -7,6 +7,9 @@ WORKDIR  /usr/share/nginx/html/
 # Copy the local HTML file to the NGINX default public directory
 COPY index.html /usr/share/nginx/html/
 
+# Copy the html directory with the second index.html file to NGINX public directory
+COPY html /usr/share/nginx/html/html/
+
 # Expose port 80 to allow external access
 EXPOSE 80
 
