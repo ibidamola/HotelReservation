@@ -40,7 +40,9 @@ A technology consulting firm is adopting a cloud architecture for its software a
 
 - Live demonstration of the CI/CD pipeline.
 ![pipeline Stage image](./assets/Screenshot%202025-03-15%20113625.png)
-![website running on instance ip and port 8081](./assets/HOTEL%20-%20Google%20Chrome%202025-03-03%2017-57-21.mp4)
+
+[![Website Running](./assets/web%20running%20n%20port%208081.png)](./assets/HOTEL%20-%20Google%20Chrome%202025-03-03%2017-57-21.mp4)
+
 
 
 ---
