@@ -4,21 +4,21 @@
 - [Capstone Project: CI/CD Mastery](#capstone-project-cicd-mastery)
   - [Table of Contents](#table-of-contents)
   - [1. Project Scenario](#1-project-scenario)
-  - [3. Project Deliverables](#3-project-deliverables)
+  - [2. Project Deliverables](#2-project-deliverables)
     - [Documentation](#documentation)
     - [Demonstration](#demonstration)
-  - [4. Project Componentss](#4-project-componentss)
-    - [4.1 Jenkins Server Setup](#41-jenkins-server-setup)
+  - [3. Project Componentss](#3-project-componentss)
+    - [3.1 Jenkins Server Setup](#31-jenkins-server-setup)
       - [Steps:](#steps)
-    - [4.2 Source Code Management Repository Integration](#42-source-code-management-repository-integration)
+    - [3.2 Source Code Management Repository Integration](#32-source-code-management-repository-integration)
       - [Steps:](#steps-1)
-    - [4.3 Jenkins Freestyle Jobs for Build and Unit Tests](#43-jenkins-freestyle-jobs-for-build-and-unit-tests)
+    - [3.3 Jenkins Freestyle Jobs for Build and Unit Tests](#33-jenkins-freestyle-jobs-for-build-and-unit-tests)
       - [Steps:](#steps-2)
-    - [4.4 Jenkins Pipeline for Web Application](#44-jenkins-pipeline-for-web-application)
+    - [3.4 Jenkins Pipeline for Web Application](#34-jenkins-pipeline-for-web-application)
       - [Steps:](#steps-3)
-    - [4.5 Docker Image Creation and Registry Push](#45-docker-image-creation-and-registry-push)
+    - [3.5 Docker Image Creation and Registry Push](#35-docker-image-creation-and-registry-push)
       - [Steps:](#steps-4)
-  - [5. Conclusion](#5-conclusion)
+  - [4. Conclusion](#4-conclusion)
 
 ---
 
@@ -29,7 +29,7 @@ A technology consulting firm is adopting a cloud architecture for its software a
 ---
 
 
-## 3. Project Deliverables
+## 2. Project Deliverables
 
 ### Documentation
 
@@ -40,16 +40,16 @@ A technology consulting firm is adopting a cloud architecture for its software a
 
 - Live demonstration of the CI/CD pipeline.
 ![pipeline Stage image](./assets/Screenshot%202025-03-15%20113625.png)
-
+- link to the live preview
 [![Website Running](./assets/web%20running%20n%20port%208081.png)](./assets/HOTEL%20-%20Google%20Chrome%202025-03-03%2017-57-21.mp4)
 
 
 
 ---
 
-## 4. Project Componentss
+## 3. Project Componentss
 
-### 4.1 Jenkins Server Setup
+### 3.1 Jenkins Server Setup
 
 **Objective:** Configure Jenkins server for CI/CD pipeline automation.
 
@@ -108,7 +108,7 @@ A technology consulting firm is adopting a cloud architecture for its software a
      ![security rule for jenkins](./assets/s%20rule.png)
 ---
 
-### 4.2 Source Code Management Repository Integration
+### 3.2 Source Code Management Repository Integration
 
 **Objective:** Connect Jenkins to the version control system for source code management.
 
@@ -128,7 +128,7 @@ A technology consulting firm is adopting a cloud architecture for its software a
 
 ---
 
-### 4.3 Jenkins Freestyle Jobs for Build and Unit Tests
+### 3.3 Jenkins Freestyle Jobs for Build and Unit Tests
 
 **Objective:** Create Jenkins Freestyle jobs for building the web application and running unit tests.
 
@@ -155,7 +155,7 @@ A technology consulting firm is adopting a cloud architecture for its software a
 
 ---
 
-### 4.4 Jenkins Pipeline for Web Application
+### 3.4 Jenkins Pipeline for Web Application
 
 **Objective:** Develop a Jenkins Pipeline for running a web application.
 
@@ -199,7 +199,7 @@ A technology consulting firm is adopting a cloud architecture for its software a
     ![push to github](./assets/push%20to%20git.png)
 ---
 
-### 4.5 Docker Image Creation and Registry Push
+### 3.5 Docker Image Creation and Registry Push
 
 **Objective:** Automate the creation of Docker images for the web application and push them to a container registry.
 
@@ -262,6 +262,6 @@ A technology consulting firm is adopting a cloud architecture for its software a
 
 ---
 
-## 5. Conclusion
+## 4. Conclusion
 
 By following these steps, I successfully set up a Jenkins CI/CD pipeline that automates the building and deployment of a web application using Docker. This pipeline integrates with GitHub for source code management, builds the Docker image, runs the container, and pushes the image to Docker Hub for easy distribution. The entire process ensures continuous integration and deployment, making the web application scalable and reliable.
